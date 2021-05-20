@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px auto 200px 100px;
+  grid-template-rows: 80px auto 70px;
+  min-height: 400px;
+  gap: 0px 0px;
+  border: solid 1px;
+}
+.web{
+  grid-column: 1/5;
+  grid-row: 1/2;
+  background-color: lightpink;
+}
+.news{
+  grid-column: 2/3;
+  grid-row:2/3;
+  background-color: lightblue;
+}
+.advert{
+  grid-column: 3/4;
+  grid-row:2/3;
+  background-color: rgb(197, 67, 230);
+}
+.footer{
+  grid-column: 2/4;
+  grid-row: 3/4;
+  background-color: palegreen;
+}
